@@ -1,20 +1,42 @@
 <script setup>
-import AriketaC3 from './ariketak/03/ariketaC3.vue';
-
+import AriketaC3 from './ariketak/03/ariketaC3.vue'
+import ariketaC4 from './ariketak/04/ariketaC4.vue'
+import AriketaC5 from './ariketak/05/ariketaC5.vue'
 // import cabeceraH1 from './components/cabeceraH1.vue'
 // import cabeceraNueva from './components/cabeceraNueva.vue'
 // import ejemploBoton from './components/ejemploBoton.vue';
-
 </script>
 
 <template>
+  <h1>03 Ariketa</h1>
+  <div class="A03">
+    <ariketaC3 />
+    <ariketaC3 />
+    <ariketaC3 />
+  </div>
 
-<h1>03 AAriketa</h1>
-<ariketaC3 />
-<ariketaC3 />
-<ariketaC3 />
+  <h1>04 Ariketa</h1>
+  <div class="A04">
+    <ariketaC4 />
+    <ariketaC4 />
+    <ariketaC4 />
+  </div>
 
-<h1>Ariketa 05</h1>
+  <h1>05 Ariketa</h1>
+
+  <div class="A05">
+    <ariketaC5 />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.A03 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.A04 {
+  display: flex;
+  flex-wrap: wrap;
+}
+</style>
