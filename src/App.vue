@@ -5,6 +5,7 @@ import AriketaC5 from './ariketak/05/ariketaC5.vue'
 // import cabeceraH1 from './components/cabeceraH1.vue'
 // import cabeceraNueva from './components/cabeceraNueva.vue'
 // import ejemploBoton from './components/ejemploBoton.vue';
+const visualizacion = true
 </script>
 
 <template>
@@ -25,7 +26,7 @@ import AriketaC5 from './ariketak/05/ariketaC5.vue'
   <h1>05 Ariketa</h1>
 
   <div class="A05">
-    <ariketaC5 />
+    <ariketaC5 v-if="visualizacion" />
   </div>
 </template>
 
